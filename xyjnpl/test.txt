@@ -1,0 +1,61 @@
+Using TensorFlow backend.
+WARNING:tensorflow:From /usr/local/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /usr/local/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From /usr/local/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-05-05 18:16:01.151477: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+Found 262119 unique tokens.
+Shape of data tensor: (287351, 100)
+Shape of label tensor: (287351, 35)
+train docs: 183904 183904
+val docs: 45976 45976
+test docs: 57471 57471
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      (None, 100, 200)          52424000  
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 100, 200)          0         
+_________________________________________________________________
+conv1d_1 (Conv1D)            (None, 98, 250)           150250    
+_________________________________________________________________
+max_pooling1d_1 (MaxPooling1 (None, 32, 250)           0         
+_________________________________________________________________
+flatten_1 (Flatten)          (None, 8000)              0         
+_________________________________________________________________
+dense_1 (Dense)              (None, 200)               1600200   
+_________________________________________________________________
+dense_2 (Dense)              (None, 35)                7035      
+=================================================================
+Total params: 54,181,485
+Trainable params: 54,181,485
+Non-trainable params: 0
+_________________________________________________________________
+Train on 183904 samples, validate on 45976 samples
+Epoch 1/2
+
+   128/183904 [..............................] - ETA: 59:25 - loss: 3.5274 - acc: 0.0000e+00
+   256/183904 [..............................] - ETA: 39:15 - loss: 1.8092 - acc: 0.5000    
+   384/183904 [..............................] - ETA: 32:11 - loss: 1.2061 - acc: 0.6667
+   512/183904 [..............................] - ETA: 28:49 - loss: 0.9046 - acc: 0.7500
+   640/183904 [..............................] - ETA: 26:27 - loss: 0.7237 - acc: 0.8000
+   768/183904 [..............................] - ETA: 25:01 - loss: 0.6031 - acc: 0.8333
+   896/183904 [..............................] - ETA: 23:57 - loss: 0.5169 - acc: 0.8571
+  1024/183904 [..............................] - ETA: 23:00 - loss: 0.4523 - acc: 0.8750
+  1152/183904 [..............................] - ETA: 22:20 - loss: 0.4020 - acc: 0.8889
+  1280/183904 [..............................] - ETA: 21:46 - loss: 0.3618 - acc: 0.9000
+  1408/183904 [..............................] - ETA: 21:16 - loss: 0.3289 - acc: 0.9091
+  1536/183904 [..............................] - ETA: 20:49 - loss: 0.3015 - acc: 0.9167
+  1664/183904 [..............................] - ETA: 20:35 - loss: 0.2783 - acc: 0.9231
+  1792/183904 [..............................] - ETA: 20:17 - loss: 0.2585 - acc: 0.9286
+  1920/183904 [..............................] - ETA: 20:04 - loss: 0.2412 - acc: 0.9333
+  2048/183904 [..............................] - ETA: 19:52 - loss: 0.2261 - acc: 0.9375
+  2176/183904 [..............................] - ETA: 19:48 - loss: 0.2128 - acc: 0.9412
+  2304/183904 [..............................] - ETA: 19:46 - loss: 0.2010 - acc: 0.9444
+  2432/183904 [..............................] - ETA: 19:34 - loss: 0.1904 - acc: 0.9474
+  2560/183904 [..............................] - ETA: 19:31 - loss: 0.1809 - acc: 0.9500

@@ -1,0 +1,5 @@
+gensim
+# 依赖关系，需要依赖的文件
+numpy
+keras
+chardet

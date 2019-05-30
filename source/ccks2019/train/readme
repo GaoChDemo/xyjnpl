@@ -1,0 +1,2 @@
+sent_train.txt 是训练数据，已经分好词
+sent_relation_train.txt 是训练数据标签(一个数据只对应一个结果)
