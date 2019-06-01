@@ -5,15 +5,19 @@ cnn模型计算以及word2vec嵌入
 """
 import pickle
 
+import gensim
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 from keras.utils import to_categorical
 import config.setting as CONFIG
-from keras.layers import Dense, Input, Flatten, Dropout
+from keras.layers import Dense, Input, Flatten, Dropout, GlobalMaxPooling1D
 from keras.layers import Conv1D, MaxPooling1D, Embedding
 from keras.models import Sequential
 from keras.models import load_model
+import numpy as np
+from xyjnpl.metrics import Metrics
 import xyjnpl.openfile as of
+
 VECTOR_DIR = 'wiki.zh.vector.bin'  # 词向量模型文件
 
 
@@ -61,27 +65,40 @@ def split_data(data, labels, tokenizer):
 
 
 def fit_model(x_train, y_train, tokenizer, x_val=None, y_val=None):
-    model = Sequential()
+    filters = 250
     word_index = tokenizer.word_index
 
-    arr = of.get_training_word2vec_vectors("/Users/chong/Documents/pycharm_work/xyjnpl/xyjnpl/tests/model/vector_word.npz")
-    model.add(Embedding(len(word_index) + 1, CONFIG.EMBEDDING_DIM, input_length=CONFIG.MAX_SEQUENCE_LENGTH, weights=arr))
+    word2vec_model = gensim.models.Word2Vec.load('./word2vec')
+    # 存储所有 word2vec 中所有向量的数组，留意其中多一位，词向量全为 0， 用于 padding
+    embedding_matrix = np.zeros((len(word_index) + 1, word2vec_model.vector_size))
+    for word, i in word_index.items():
+        try:
+            embedding_vector = word2vec_model[word]
+            embedding_matrix[i] = embedding_vector
+        except:
+            continue
+
+    model = Sequential()
+    # 使用Embedding层将每个词编码转换为词向量
+    model.add(Embedding(len(word_index) + 1, CONFIG.EMBEDDING_DIM,weights=[embedding_matrix], input_length=CONFIG.MAX_SEQUENCE_LENGTH))
     model.add(Dropout(0.2))
     model.add(Conv1D(250, 3, padding='valid', activation='relu', strides=1))
     model.add(MaxPooling1D(3))
     model.add(Flatten())
     model.add(Dense(CONFIG.EMBEDDING_DIM, activation='relu'))
     model.add(Dense(y_train.shape[1], activation='softmax'))
-    model.summary()
+
     # plot_model(model, to_file='model.png',show_shapes=True)
     model.compile(loss='categorical_crossentropy',
                   optimizer='rmsprop',
                   metrics=['acc'])
+    model.summary()
+
     print('####################################### 开始训练model #############################################')
     if x_val is not None and y_val is not None:
         model.fit(x_train, y_train, validation_data=(x_val, y_val), epochs=2, batch_size=128)
     else:
-        model.fit(x_train, y_train, epochs=100, batch_size=128)
+        model.fit(x_train, y_train, epochs=1, batch_size=128)
     with open('model/tokenizer' + str(CONFIG.VERSION) + '.pickle', 'wb') as f:
         pickle.dump(tokenizer, f)
     model.save('model/word_vector_cnn_' + str(CONFIG.VERSION) + '.h5')
@@ -100,8 +117,10 @@ def evaluate_model(model, x_test, y_test, bags_train_deal):
     print('####################################### 开始验证model #############################################')
     y_predict = model.predict_classes(x_test)
     for x in range(len(x_test)):
-        print(y_predict[x],end=', ')
+        print(y_predict[x], end=', ')
         print(bags_train_deal[x])
+    me = Metrics()
+    me.calculate(y_predict, bags_train_deal)
     print(model.evaluate(x_test, y_test))
 
 

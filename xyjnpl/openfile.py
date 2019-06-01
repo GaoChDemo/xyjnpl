@@ -38,6 +38,21 @@ def read_txt_and_deal(path):
         sys.exit(0)
 
 
+# 获取文件并转换成数据 用于demo
+def read_txt_and_deal_spa(path):
+    seq = re.compile(' ')
+    data = list()
+    try:
+        with open(path, 'r') as f:
+            for line in f:
+                line_seq = seq.split(line.strip())
+                data.append(line_seq)
+        return data
+    except Exception as e:
+        print(e)
+        sys.exit(0)
+
+
 def write_dict(dic, path):
     with open(path, 'w') as f:
         for k, y in dic:

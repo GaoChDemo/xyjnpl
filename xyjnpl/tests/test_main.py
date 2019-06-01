@@ -123,4 +123,12 @@ def test_demo():
 
 
 # test_cut_word()
-test_demo()
+# test_demo()
+from xyjnpl.metrics import Metrics
+
+me = Metrics()
+lista = [1, 1, 1, 1, 2, 2, 2, 3, 3, 0, 0, 2]
+listb = [1, 1, 2, 3, 2, 2, 3, 2, 3, 0, 2, 1]
+val_predict = [x + 1 for x in lista]
+val_tar = [x + 1 for x in listb]
+me.calculate(val_predict, val_tar)

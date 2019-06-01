@@ -14,9 +14,7 @@ import xyjnpl.openfile as of
 import config.setting as CONFIG
 import xyjnpl.cnn as cnn
 import xyjnpl.utils as utils
-import pickle
-
-
+import xyjnpl.train_word2vec as train_word2vec
 
 if __name__ == '__main__':
     sents_train = of.read_txt_and_deal(CONFIG.PATH_TRAIN_SENT)
@@ -33,10 +31,11 @@ if __name__ == '__main__':
     bags_test_deal = [x[1] for x in bags_test]
     bags_test_deal = utils.standard_bags(bags_test_deal)
 
-    data, labels, tokenizer = cnn.fit_tokenizer(sents_train_deal[200000:], bags_train_deal[200000:])
-    data_test, labels_test = cnn.deal_data(tokenizer, sents_test_deal[36598:], bags_test_deal[36598:])
+    data, labels, tokenizer = cnn.fit_tokenizer(sents_train_deal, bags_train_deal)
+    train_word2vec.word2vec_train(sents_train_deal)
+    data_test, labels_test = cnn.deal_data(tokenizer, sents_test_deal, bags_test_deal)
     model = cnn.fit_model(data, labels, tokenizer)
-    cnn.evaluate_model(model, data_test, labels_test)
+    cnn.evaluate_model(model, data_test, labels_test, bags_test_deal)
 
     # with open('model/tokenizer' + str(CONFIG.VERSION) + '.pickle', 'rb') as f:
     #     tokenizer = pickle.load(f)
