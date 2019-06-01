@@ -98,7 +98,7 @@ def fit_model(x_train, y_train, tokenizer, x_val=None, y_val=None):
     if x_val is not None and y_val is not None:
         model.fit(x_train, y_train, validation_data=(x_val, y_val), epochs=2, batch_size=128)
     else:
-        model.fit(x_train, y_train, epochs=1, batch_size=128)
+        model.fit(x_train, y_train, epochs=20, batch_size=128)
     with open('model/tokenizer' + str(CONFIG.VERSION) + '.pickle', 'wb') as f:
         pickle.dump(tokenizer, f)
     model.save('model/word_vector_cnn_' + str(CONFIG.VERSION) + '.h5')
