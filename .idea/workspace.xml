@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a468429-05cf-4d31-b599-2fc0dbfaa933" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/ccks2019/train/如来佛祖:释迦如来" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/dif.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/no_words_test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/nr.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/nr_deal.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/rw_me.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/sentences.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/word2vec/vector_word.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/words_deal.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/words_test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/xyj的副本.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xyjnpl/standardtxt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xyjnpl/tests/model/tokenizer151.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xyjnpl/tests/model/vector_word.npz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xyjnpl/tests/model/word_vector_cnn_151.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xyjnpl/train_word2vec.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/setting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ccks2019/dev/sent_relation_dev.txt" beforeDir="false" afterPath="$PROJECT_DIR$/source/ccks2019/dev/sent_relation_dev.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xyjnpl/cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/xyjnpl/cnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xyjnpl/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/xyjnpl/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xyjnpl/openfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/xyjnpl/openfile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xyjnpl/preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/xyjnpl/preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xyjnpl/tests/test_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/xyjnpl/tests/test_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xyjnpl/metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/xyjnpl/metrics.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,58 +30,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xyjnpl/standardtxt.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-              <folding>
-                <element signature="e#45#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xyjnpl/preprocessing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-              <folding>
-                <element signature="e#40#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xyjnpl/tests/test_main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-              <folding>
-                <element signature="e#113#141#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xyjnpl/openfile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
-              <caret line="98" selection-start-line="98" selection-end-line="98" />
-              <folding>
-                <element signature="e#43#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xyjnpl/cnn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="73" column="45" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
+            <state relative-caret-position="89">
+              <caret line="82" column="31" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
               <folding>
                 <element signature="e#53#66#0" expanded="true" />
               </folding>
@@ -111,28 +42,73 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python3.7/site-packages/keras/layers/embeddings.py">
+        <entry file="file:///usr/local/lib/python3.7/site-packages/keras/layers/pooling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1185">
-              <caret line="89" column="10" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="10" />
+            <state relative-caret-position="141">
+              <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/python_stubs/-1199943126/builtins.py">
+        <entry file="file:///usr/local/lib/python3.7/site-packages/keras/layers/core.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79110">
-              <caret line="5274" column="8" selection-start-line="5274" selection-start-column="8" selection-end-line="5274" selection-end-column="8" />
+            <state relative-caret-position="141">
+              <caret line="830" column="8" selection-start-line="830" selection-start-column="8" selection-end-line="830" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/setting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python3.7/site-packages/sklearn/metrics/classification.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="1141" column="43" selection-start-line="1141" selection-start-column="43" selection-end-line="1141" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python3.7/site-packages/keras/layers/embeddings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python3.7/site-packages/keras/layers/convolutional.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="321" column="28" selection-start-line="321" selection-start-column="17" selection-end-line="321" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xyjnpl/metrics.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xyjnpl/train_word2vec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="134">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
               <folding>
                 <element signature="e#49#59#0" expanded="true" />
               </folding>
@@ -140,20 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xyjnpl/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xyjnpl/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="318">
+              <caret line="37" column="68" selection-start-line="37" selection-start-column="68" selection-end-line="37" selection-end-column="68" />
               <folding>
                 <element signature="e#75#85#0" expanded="true" />
               </folding>
@@ -172,18 +139,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>丑</find>
-      <find>]</find>
-      <find>{</find>
-      <find>[</find>
-      <find>祖师</find>
-      <find>“</find>
-      <find>生</find>
-      <find>子</find>
-      <find>经</find>
-      <find>蜻蜓</find>
-      <find>众</find>
-      <find>竹竿</find>
       <find>演变化耍子</find>
       <find>敖广</find>
       <find>悟空</find>
@@ -201,6 +156,19 @@
       <find>DEV_SENT_ID_037961</find>
       <find>DEV_SENT_ID_037896</find>
       <find>weights</find>
+      <find>word_index</find>
+      <find>model</find>
+      <find>vector_size</find>
+      <find>embeddings_matrix</find>
+      <find>sentences</find>
+      <find>sents</find>
+      <find>metrics</find>
+      <find>val_targ</find>
+      <find>embedding_weights</find>
+      <find>average</find>
+      <find>val_f1s</find>
+      <find>sents_train</find>
+      <find>CONFIG.EMBEDDING_DIM</find>
     </findStrings>
     <replaceStrings>
       <replace>1</replace>
@@ -231,7 +199,6 @@
         <option value="$PROJECT_DIR$/xyjnpl/200.txt" />
         <option value="$PROJECT_DIR$/xyjnpl/utils.py" />
         <option value="$PROJECT_DIR$/source/dif.txt" />
-        <option value="$PROJECT_DIR$/xyjnpl/main.py" />
         <option value="$PROJECT_DIR$/source/sentence.txt" />
         <option value="$PROJECT_DIR$/source/words_test.txt" />
         <option value="$PROJECT_DIR$/xyjnpl/standardtxt.py" />
@@ -241,13 +208,16 @@
         <option value="$PROJECT_DIR$/source/ccks2019/dev/sent_dev.txt" />
         <option value="$PROJECT_DIR$/source/ccks2019/dev/sent_relation_dev.txt" />
         <option value="$PROJECT_DIR$/xyjnpl/preprocessing.py" />
-        <option value="$PROJECT_DIR$/xyjnpl/tests/test_main.py" />
         <option value="$PROJECT_DIR$/source/words_deal.txt" />
-        <option value="$PROJECT_DIR$/xyjnpl/cnn.py" />
-        <option value="$PROJECT_DIR$/xyjnpl/openfile.py" />
         <option value="$PROJECT_DIR$/xyjnpl/tran_word2vec.py" />
-        <option value="$PROJECT_DIR$/config/setting.py" />
+        <option value="$PROJECT_DIR$/xyjnpl/openfile.py" />
+        <option value="$PROJECT_DIR$/xyjnpl/Metrics.py" />
+        <option value="$PROJECT_DIR$/xyjnpl/tests/test_main.py" />
         <option value="$PROJECT_DIR$/xyjnpl/train_word2vec.py" />
+        <option value="$PROJECT_DIR$/xyjnpl/metrics.py" />
+        <option value="$PROJECT_DIR$/xyjnpl/cnn.py" />
+        <option value="$PROJECT_DIR$/config/setting.py" />
+        <option value="$PROJECT_DIR$/xyjnpl/main.py" />
       </list>
     </option>
   </component>
@@ -271,18 +241,23 @@
             <path>
               <item name="xyjnpl" type="b2602c69:ProjectViewProjectNode" />
               <item name="xyjnpl" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xyjnpl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xyjnpl" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xyjnpl" type="b2602c69:ProjectViewProjectNode" />
               <item name="xyjnpl" type="462c0819:PsiDirectoryNode" />
-              <item name="xyjnpl" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="ccks2019" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xyjnpl" type="b2602c69:ProjectViewProjectNode" />
               <item name="xyjnpl" type="462c0819:PsiDirectoryNode" />
               <item name="xyjnpl" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -327,7 +302,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.train_word2vec">
+  <component name="RunManager" selected="Python.main">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="xyjnpl" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -486,9 +461,6 @@
       <module name="xyjnpl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xyjnpl" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -515,9 +487,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.train_word2vec" />
-        <item itemvalue="Python.test_main" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.test_main" />
+        <item itemvalue="Python.train_word2vec" />
         <item itemvalue="Python.cnn" />
         <item itemvalue="Python.preprocessing" />
       </list>
@@ -550,7 +522,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119754000" />
+    <option name="totallyTimeSpent" value="146083000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -564,12 +536,12 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33404863" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33404863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45903614" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45903614" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -631,17 +603,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/xyjnpl/cnn.py</url>
-          <line>73</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/xyjnpl/cnn.py</url>
-          <line>111</line>
+          <line>129</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/xyjnpl/cnn.py</url>
-          <line>115</line>
+          <line>133</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -675,167 +642,84 @@
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/xyjnpl/cnn.py</url>
-          <line>66</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/xyjnpl/openfile.py</url>
-          <line>97</line>
+          <line>112</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/xyjnpl/train_word2vec.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="41" />
+          <line>26</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/xyjnpl/train_word2vec.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="42" />
+          <url>file://$PROJECT_DIR$/xyjnpl/metrics.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/xyjnpl/tests/test_main.py</url>
+          <line>133</line>
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/xyjnpl$preprocessing.coverage" NAME="preprocessing Coverage Results" MODIFIED="1556516847180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xyjnpl" />
-    <SUITE FILE_PATH="coverage/xyjnpl$train_word2vec.coverage" NAME="train_word2vec Coverage Results" MODIFIED="1559198633045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xyjnpl" />
-    <SUITE FILE_PATH="coverage/xyjnpl$main.coverage" NAME="main Coverage Results" MODIFIED="1557363050639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xyjnpl" />
-    <SUITE FILE_PATH="coverage/xyjnpl$test_main.coverage" NAME="test_main Coverage Results" MODIFIED="1559195864294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xyjnpl/tests" />
+    <SUITE FILE_PATH="coverage/xyjnpl$train_word2vec.coverage" NAME="train_word2vec Coverage Results" MODIFIED="1559391936785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xyjnpl" />
+    <SUITE FILE_PATH="coverage/xyjnpl$test_main.coverage" NAME="test_main Coverage Results" MODIFIED="1559407379997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xyjnpl/tests" />
+    <SUITE FILE_PATH="coverage/xyjnpl$main.coverage" NAME="main Coverage Results" MODIFIED="1559454952249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xyjnpl" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string>data[&quot;embeddings&quot;]</expression-string>
+        <expression-string>f1_score(val_targ, val_predict)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>data</expression-string>
+        <expression-string>len(val_targ)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>sents_train_deal[:-1]</expression-string>
+        <expression-string>len(val_predict)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>sents_train_deal</expression-string>
+        <expression-string>val_predict</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>data_test</expression-string>
+        <expression-string>val_targ</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>words</expression-string>
+        <expression-string>int(val_predicta[0])</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>' '.join(words)</expression-string>
+        <expression-string>val_predicta</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>len(rw_me.difference(rw))</expression-string>
+        <expression-string>val_predicta[1]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>rw_me.difference(rw)</expression-string>
+        <expression-string>val_predicta[0]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/lib/python3.7/site-packages/keras/utils/np_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/keras/layers/convolutional.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="320" column="8" selection-start-line="320" selection-start-column="8" selection-end-line="320" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/jieba/posseg/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/xyjnpl.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/db.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/keras/preprocessing/sequence.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/keras/preprocessing/text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/keras_preprocessing/text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="92" column="4" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/keras/preprocessing/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/keras_preprocessing/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/keras/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python3.7/site-packages/jieba/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-270">
@@ -844,9 +728,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/sentence.txt" />
-    <entry file="file://$PROJECT_DIR$/source/ccks2019/dev/readme">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/xyj的副本.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -916,20 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/ccks2019/dev/sent_dev.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="37909" column="42" selection-start-line="37909" selection-start-column="42" selection-end-line="37909" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xyjnpl/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python3.7/site-packages/keras/engine/training_utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -968,50 +835,117 @@
     <entry file="file://$PROJECT_DIR$/xyjnpl/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/keras/engine/base_layer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="1043" column="31" selection-start-line="1043" selection-start-column="31" selection-end-line="1043" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/word2vec/vector_word.txt">
       <provider selected="true" editor-type-id="LargeFileEditor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/setting.py">
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/python_stubs/-1199943126/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="19" selection-start-line="8" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="79110">
+          <caret line="5274" column="8" selection-start-line="5274" selection-start-column="8" selection-end-line="5274" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xyjnpl/standardtxt.py">
+    <entry file="file://$PROJECT_DIR$/xyjnpl/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="e#45#54#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="450">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xyjnpl/main.py">
+    <entry file="file:///usr/local/lib/python3.7/site-packages/keras/engine/base_layer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="150">
+          <caret line="1056" selection-start-line="1056" selection-end-line="1056" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/python_stubs/-1199943126/gensim/models/word2vec_inner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#75#85#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xyjnpl/openfile.py">
+    <entry file="file:///usr/local/lib/python3.7/site-packages/gensim/models/word2vec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
-          <folding>
-            <element signature="e#43#53#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="76">
+          <caret line="1370" column="8" selection-start-line="1370" selection-start-column="8" selection-end-line="1370" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/ccks2019/dev/sent_dev.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="37909" column="42" selection-start-line="37909" selection-start-column="42" selection-end-line="37909" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/ccks2019/dev/readme">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/keras_preprocessing/text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="266" column="8" selection-start-line="266" selection-start-column="8" selection-end-line="266" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/tensorflow/contrib/learn/python/learn/evaluable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/keras/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/keras/preprocessing/text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/keras/metrics.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/keras/engine/sequential.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="85" column="16" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/sklearn/utils/multiclass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/keras/engine/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xyjnpl/cuttext_all_large.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="87335" selection-start-line="87335" selection-end-line="87335" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xyjnpl/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1025,53 +959,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/xyjnpl/standardtxt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#45#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/xyjnpl/tests/test_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        <state relative-caret-position="427">
+          <caret line="133" column="10" selection-start-line="133" selection-start-column="10" selection-end-line="133" selection-end-column="10" />
           <folding>
             <element signature="e#113#141#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xyjnpl/utils.py">
+    <entry file="file://$PROJECT_DIR$/xyjnpl/openfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        <state relative-caret-position="235">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+          <folding>
+            <element signature="e#43#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xyjnpl/train_word2vec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="134">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding>
             <element signature="e#49#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/keras/layers/embeddings.py">
+    <entry file="file:///usr/local/lib/python3.7/site-packages/keras/layers/core.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="89" column="10" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="10" />
+        <state relative-caret-position="141">
+          <caret line="830" column="8" selection-start-line="830" selection-start-column="8" selection-end-line="830" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2019.1/python_stubs/-1199943126/builtins.py">
+    <entry file="file:///usr/local/lib/python3.7/site-packages/sklearn/metrics/classification.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79110">
-          <caret line="5274" column="8" selection-start-line="5274" selection-start-column="8" selection-end-line="5274" selection-end-column="8" />
+        <state relative-caret-position="134">
+          <caret line="1141" column="43" selection-start-line="1141" selection-start-column="43" selection-end-line="1141" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/keras/layers/pooling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xyjnpl/metrics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/keras/layers/embeddings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/keras/layers/convolutional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="321" column="28" selection-start-line="321" selection-start-column="17" selection-end-line="321" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xyjnpl/cnn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="73" column="45" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
+        <state relative-caret-position="89">
+          <caret line="82" column="31" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
           <folding>
             <element signature="e#53#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xyjnpl/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="37" column="68" selection-start-line="37" selection-start-column="68" selection-end-line="37" selection-end-column="68" />
+          <folding>
+            <element signature="e#75#85#0" expanded="true" />
           </folding>
         </state>
       </provider>

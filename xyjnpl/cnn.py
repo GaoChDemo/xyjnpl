@@ -65,7 +65,6 @@ def split_data(data, labels, tokenizer):
 
 
 def fit_model(x_train, y_train, tokenizer, x_val=None, y_val=None):
-    filters = 250
     word_index = tokenizer.word_index
 
     word2vec_model = gensim.models.Word2Vec.load('./word2vec')
@@ -81,11 +80,11 @@ def fit_model(x_train, y_train, tokenizer, x_val=None, y_val=None):
     model = Sequential()
     # 使用Embedding层将每个词编码转换为词向量
     model.add(Embedding(len(word_index) + 1, CONFIG.EMBEDDING_DIM,weights=[embedding_matrix], input_length=CONFIG.MAX_SEQUENCE_LENGTH))
-    model.add(Dropout(0.2))
-    model.add(Conv1D(250, 3, padding='valid', activation='relu', strides=1))
+    model.add(Dropout(CONFIG.DROPOUT))
+    model.add(Conv1D(CONFIG.FILTERS, CONFIG.KERNEL_SIZE, padding='valid', activation='relu', strides=1))
     model.add(MaxPooling1D(3))
     model.add(Flatten())
-    model.add(Dense(CONFIG.EMBEDDING_DIM, activation='relu'))
+    model.add(Dense(CONFIG.HIDDEN_DIMS, activation='relu'))
     model.add(Dense(y_train.shape[1], activation='softmax'))
 
     # plot_model(model, to_file='model.png',show_shapes=True)
@@ -98,7 +97,7 @@ def fit_model(x_train, y_train, tokenizer, x_val=None, y_val=None):
     if x_val is not None and y_val is not None:
         model.fit(x_train, y_train, validation_data=(x_val, y_val), epochs=2, batch_size=128)
     else:
-        model.fit(x_train, y_train, epochs=20, batch_size=128)
+        model.fit(x_train, y_train, epochs=10, batch_size=128)
     with open('model/tokenizer' + str(CONFIG.VERSION) + '.pickle', 'wb') as f:
         pickle.dump(tokenizer, f)
     model.save('model/word_vector_cnn_' + str(CONFIG.VERSION) + '.h5')

@@ -14,7 +14,7 @@ class Metrics(object):
         for i in range(len(val_predict)):
             if val_predict[i] == val_targ[i]:
                 x = x + 1
-        print(i)
+        print(x)
         # None, 'micro', 'macro', 'weighted', 'samples'
         _val_f1 = f1_score(val_targ, val_predict, average="macro")
         _val_recall = recall_score(val_targ, val_predict, average="macro")
