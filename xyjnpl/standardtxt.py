@@ -7,7 +7,7 @@
 import re
 import jieba
 import xyjnpl.openfile as of
-
+import xyjnpl.utils as utils
 
 # 将西游记文档截取成句子保存文件
 def cut_sentence(txt):
@@ -53,3 +53,14 @@ def mark_nr(words, nr_list):
             words[i] = '「' + words[i] + '」'
             count += 1
     return words, count, nr
+
+
+# 标准化文档
+def standard_test(sent_path, bag_path, path_train):
+    sents_train = of.read_txt_and_deal(sent_path)
+    bags_train_r = of.read_txt_and_deal(bag_path)
+    bags_train = utils.standard_bags([i[1] for i in bags_train_r])
+    for i in range(len(sents_train)):
+        lis = sents_train[i][1:4].copy()
+        lis.append(bags_train[i])
+        of.write_list_line(lis, path_train % ('train'+bags_train[i]))

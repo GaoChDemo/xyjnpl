@@ -27,15 +27,11 @@ def read_file_txt(path):
 def read_txt_and_deal(path):
     seq = re.compile('\t')
     data = list()
-    try:
-        with open(path, 'r') as f:
-            for line in f:
-                line_seq = seq.split(line.strip())
-                data.append(line_seq)
-        return data
-    except Exception as e:
-        print(e)
-        sys.exit(0)
+    with open(path, 'r') as f:
+        for line in f:
+            line_seq = seq.split(line.strip())
+            data.append(line_seq)
+    return data
 
 
 # 获取文件并转换成数据 用于demo
@@ -63,6 +59,27 @@ def write_list(lis, path):
     with open(path, 'w') as f:
         for x in lis:
             f.write(x + '\n')
+
+
+def write_list_line(lis, path):
+    with open(path, 'a+') as f:
+        for x in lis:
+            f.write(x)
+            if x != lis[len(lis) - 1]:
+                f.write('\t')
+            else:
+                f.write('\n')
+
+
+def write_list_all_line(alllis, path):
+    with open(path, 'a+') as f:
+        for line in alllis:
+            for x in line:
+                f.write(x)
+                if x != line[len(line) - 1]:
+                    f.write('\t')
+                else:
+                    f.write('\n')
 
 
 # 获取文件并转换成数据 用于demo

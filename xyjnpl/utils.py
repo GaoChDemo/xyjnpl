@@ -29,14 +29,27 @@ def standard_bags(bags):
         elif 7 <= item <= 24:
             res.append('2')
         elif 25 <= item <= 29:
-            res.append('3')
+            res.append('6')
         elif 30 == item:
             res.append('4')
         elif 31 <= item <= 32:
             res.append('5')
         elif 33 <= item <= 34:
-            res.append('6')
+            res.append('3')
         else:
             print("no found " + str(item))
             sys.exit(0)
+    return res
+
+
+def one_hot_to_list(datas):
+    res = list()
+    for data in datas:
+        i = 0
+        for x in data:
+            if x > 0:
+                break
+            else:
+                i = i + 1
+        res.append(i)
     return res

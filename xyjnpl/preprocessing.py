@@ -106,3 +106,31 @@ def hide_nr(data, nr1, nr2):
     out = re.sub(nr1, '*', out)
     out = re.sub(nr2, '*', out)
     return out
+
+
+def hide_nr_demo(datas):
+    for data in datas:
+        nr1 = data[0]
+        nr2 = data[1]
+        out = data[2]
+        out = re.sub(nr1, '*', out)
+        out = re.sub(nr2, '*', out)
+        data[2] = out
+    return datas
+
+
+def delete_line(data, lable, max):
+    datares = list()
+    lableres = list()
+    sum = 0
+    for i in range(len(data)):
+        if lable[i][1] == '0':
+            if sum < max:
+                sum = sum + 1
+                datares.append(data[i])
+                lableres.append(lable[i])
+        else:
+            datares.append(data[i])
+            lableres.append(lable[i])
+
+    return datares, lableres

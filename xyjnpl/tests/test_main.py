@@ -20,6 +20,7 @@ path_words = '../../source/words.txt'
 path_words_test = '../../source/words_test.txt'
 path_no_words_test = '../../source/no_words_test.txt'
 path_words_deal = '../../source/words_deal.txt'
+path_train = '../../source/train_test/%s.txt'
 
 
 def test_read_file_txt():
@@ -122,13 +123,4 @@ def test_demo():
     cnn.evaluate_model(model, data_test, labels_test, bags_train_deal)
 
 
-# test_cut_word()
-# test_demo()
-from xyjnpl.metrics import Metrics
-
-me = Metrics()
-lista = [1, 1, 1, 1, 2, 2, 2, 3, 3, 0, 0, 2]
-listb = [1, 1, 2, 3, 2, 2, 3, 2, 3, 0, 2, 1]
-val_predict = [x + 1 for x in lista]
-val_tar = [x + 1 for x in listb]
-me.calculate(val_predict, val_tar)
+standard.standard_test(path_sent, path_bag, path_train)
